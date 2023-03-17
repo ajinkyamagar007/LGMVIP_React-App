@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+    width: 100%;
+} 
+.container{
+    position: relative;
+}
+.card {
+    position: absolute;
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    width: 350px;
+    background: linear-gradient(#b57c09,#7cd6ed);
+    margin: 50px ;
+    height: 340px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: center;
+    transition: 500ms all ease;
+}
+.Specialization{
+    position: absolute;
+    top: 40px;
+    left: 450px;
+}
+.Specialization h1{
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.social ul li,.sociallinks ul li{
+    display: inline;
+    font-size: 35px;
+    padding: 10px;
+}
+.social ul li a i {
+    color: #000;
+}
+.social ul li a i:hover,.sociallinks ul li a i:hover {
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+.social ul li a .facebook:hover,.sociallinks ul li a .facebook:hover{
+    color: blue;
+}
+.social ul li a .instagram:hover,.sociallinks ul li a .instagram:hover{
+    color: deeppink;
+}
+.social ul li a .twitter:hover,.sociallinks ul li a .twitter:hover{
+    color: blue;
+}
+.social ul li a .linkedin:hover,.sociallinks ul li a .linkedin:hover{
+    color: darkblue;
+}
+.info{
+    padding: 5px;
+    border-radius: 10px;
+    width: 70px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.info:hover{
+    color: white;
+    background: rgb(225, 153, 9);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: translateY(-10px);
+}
+
+  
+.card img {
+    border-radius: 50%;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: 4px 2px 10px black;
+}
+
+.card-title {
+    color: #3c1a1aad;
+    width: 200px;
+    margin:auto;
+    text-align: center;
+}
+
+.card-text {
+    margin: 0px;
+    color: #3c1a1aad;
+}
+
+.btn{   
+    border: none;
+    background:rgb(187 98 11 / 84%);
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;   
+}
+
+.btn:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background: linear-gradient(#eef2f3,#d9ecf1);
+    color: black;
+  }

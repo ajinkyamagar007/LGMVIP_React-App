@@ -1,0 +1,100 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  padding: 30px;
+  background: rgb(187 98 11 / 84%);
+  position: relative;
+}
+.logo{
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.title{
+  position: absolute;
+  top: 15px;
+  left: 200px;
+  color:white;
+}
+.title h1{
+  padding: 10px;
+}
+.title h1:hover{
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.9);
+  transition: .7s;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.navlinks{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-weight: bold;
+  padding: 40px;
+  font-size: 20px;
+}
+.navlinks ul li a{
+  text-decoration: none;
+  display: inline;  
+  margin: 20px;
+  color:rgb(251, 247, 247)
+}
+.navlinks ul li:hover{
+  box-shadow: 5px 5px 20px rgba(151, 16, 16, 0.9);
+  transition: 1s;
+  border-radius: 40px;
+}
+.navlinks ul li{
+  text-decoration: none;
+  display: inline;
+  padding: 5px;
+}
+
+#carousel_img{
+  width: 100%;
+  height: 600px;
+}
+
+.about{
+  position: relative;
+  background-color:rgb(187 98 11 / 84%);
+  padding: 40px;
+  width: 100%;
+  height: 600px;
+}
+.aboutimg{
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
+.aboutsection{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 500px;
+  color: rgb(249, 245, 245);
+}
+
+
+body { 
+margin: 0; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
